@@ -79,4 +79,4 @@ Note : The data may change as many company provide more or less data depending u
 
 If you face problem in adding extension and running follow images and instruction below:
 FOR PYCHARM :
-![alt text](https://github.com/tieincred/Company-Data-Scrapper/blob/main/annotation.jpg?raw=true)
+![alt text](https://github.com/tieincred/Company-Data-Scrapper/blob/main/Annotation.jpg?raw=true)
