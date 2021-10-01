@@ -98,4 +98,4 @@ Right click after opening the file and click on the hihgligted option which say 
 FOR VScode :
 Open the file 'run Scrape_Company_Data.py' and then press the run (triangle button) on top right corner. (see below)
 
-![alt text](https://github.com/tieincred/Company-Data-Scrapper/blob/main/VScode annotation.jpg?raw=true)
+![alt text](https://github.com/tieincred/Company-Data-Scrapper/blob/main/VScodeannotation.jpg?raw=true)
