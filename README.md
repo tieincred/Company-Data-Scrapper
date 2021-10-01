@@ -1,3 +1,5 @@
+# DATA SCRAPER FOR COMPANIES
+
 The Project is used to get data for any company from following websites:
 Twitter
 FaceBook
