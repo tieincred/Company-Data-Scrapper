@@ -6,6 +6,10 @@ FaceBook
 LinkedIn
 Crunchbase
 
+Before starting to run the application I hihgly recommend watching this video, setting up PyCharm and installing python:
+https://www.youtube.com/watch?v=YxHplztMQMc
+
+ 
 **Pre-Requisites to run the application**
 1. You need an python IDE (Recomended: VScode and PyCharm ) 
    
@@ -55,8 +59,13 @@ Crunchbase
      `twitter_username,crunchbase_username,linkedin_username`
      
      These are the username of company you want to search about in different platforms.
+ 
+ 3. Open the terminal in the Pycharm/Vscode and run the following command:
+ 
+
+    `pip install -r requirements.txt in` 
      
- 3. Now run the file named Scrape_Company_Data.py (How to run a file can be seen in images below) by opening up the file in VS code:
+ 4. Now run the file named Scrape_Company_Data.py (How to run a file can be seen in images below) by opening up the file in VS code:
     
     `Note : Make sure python extension is installed VScode keeps suggesting that in bottom right corner and also a play buttton on the top right corner can run the code.` 
     
@@ -83,3 +92,9 @@ If you face problem in adding extension and running follow images and instructio
 FOR PYCHARM :
 Right click after opening the file and click on the hihgligted option which say 'run Scrape_Company_Data.py'
 ![alt text](https://github.com/tieincred/Company-Data-Scrapper/blob/main/Annotation.jpg?raw=true)
+
+
+
+FOR VScode :
+Open the file 'run Scrape_Company_Data.py' and then press the run (triangle button) on top right corner. (see below)
+![alt text](https://github.com/tieincred/Company-Data-Scrapper/blob/main/VScode annotation.jpg?raw=true)
