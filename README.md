@@ -60,7 +60,7 @@ https://www.youtube.com/watch?v=YxHplztMQMc
      
      These are the username of company you want to search about in different platforms.
  
- 3. Open the terminal in the Pycharm/Vscode and run the following command:
+ 3. Open the terminal in the Pycharm/Vscode and run the following command (Opening terminal in pycharm is portrayed in image in the bottom):
  
 
     `pip install -r requirements.txt` 
@@ -90,8 +90,8 @@ If you face problem in adding extension and running follow images and instructio
 
 
 FOR PYCHARM :
-Right click after opening the file and click on the hihgligted option which say 'run Scrape_Company_Data.py'
-![alt text](https://github.com/tieincred/Company-Data-Scrapper/blob/main/Annotation.jpg?raw=true)
+Right click after opening the file and click on the hihgligted option which say 'run Scrape_Company_Data.py' and you can see the terminal arrowed in blue click on that and pasting the command and pressing enter would do your Job.
+![alt text](https://github.com/tieincred/Company-Data-Scrapper/blob/main/InkedAnnotation.jpg?raw=true)
 
 
 
