@@ -56,7 +56,7 @@ Crunchbase
      
      These are the username of company you want to search about in different platforms.
      
- 3. Now run the file by opening up the file in VS code:
+ 3. Now run the file named Scrape_Company_Data.py (How to run a file can be seen in images below) by opening up the file in VS code:
     
     `Note : Make sure python extension is installed VScode keeps suggesting that in bottom right corner and also a play buttton on the top right corner can run the code.` 
     
