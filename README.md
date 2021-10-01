@@ -63,7 +63,7 @@ https://www.youtube.com/watch?v=YxHplztMQMc
  3. Open the terminal in the Pycharm/Vscode and run the following command:
  
 
-    `pip install -r requirements.txt in` 
+    `pip install -r requirements.txt` 
      
  4. Now run the file named Scrape_Company_Data.py (How to run a file can be seen in images below) by opening up the file in VS code:
     
