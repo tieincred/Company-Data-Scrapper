@@ -1,25 +1,27 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import time
-from selenium.webdriver.common.action_chains import ActionChains
-import keyboard
+# from selenium.webdriver.common.action_chains import ActionChains
+# import keyboard
 import pandas as pd
-import re
-import requests
+# import re
+# import requests
 import tweepy as tw
 from twython import Twython
 
+
+
 class ScrapeCompanyData:
-    def __init__(self, twitter_name,crunchbase_name,linkedin_name):
-        self.consumer_key = 'AdW0DwnyMprbY8jPCQBT6wOi0'
-        self.consumer_secret = 'z9Uq6O8uW60CN70phXrsWHDGgU4zx5Ex1tfKtSfiaGPItXcbp4'
-        self.access_token = '1394308063595614217-tjHbbYsIvoKzdWgljbjnziaMwjxq1l'
-        self.access_token_secret = '4FNiCSu2dgRMpW8P0iR94vGS2EhsxhYfNNyW8V4LbgpRU'
+    def __init__(self, twitter_name,crunchbase_name,linkedin_name,creds):
+        self.consumer_key = creds[0]
+        self.consumer_secret = creds[1]
+        self.access_token = creds[2]
+        self.access_token_secret = creds[3]
         self.tweet = twitter_name
         self.crunch = crunchbase_name
         self.link = linkedin_name
-        self.username = 'tausifiqbal10@gmail.com'
-        self.password = 'mechanical.18'
+        self.username = creds[4]
+        self.password = creds[5]
 
     def update_linkedin_cred(self, username, password):
         self.username = username
@@ -202,11 +204,25 @@ class ScrapeCompanyData:
         print('Tech data appended:')
         print(date[1])
 
+        print('date1' , date[0])
+        print('date2' ,date[1])
+        print('date3' ,date[2])
+
+
+        detail1 = []
+        detail2 = []
+        detail3 = []
+
         for details1, details2, details3 in zip(date[0], date[1], date[2]):
+            print('In the loop')
             detail1 = details1.split('\n')
             detail2 = details2.split('\n')
             detail3 = details3.split('\n')
 
+        print('d3',detail3)
+        print('d1', detail1)
+        print('d2', detail2)
+        print(tech_data)
         for d in tech_data:
             for i in d.split('\n'):
                 detail2.append(i)
@@ -233,7 +249,26 @@ class ScrapeCompanyData:
         return final_df
 
 if __name__ == '__main__':
-    start = ScrapeCompanyData('miniOrange_Inc','miniorange','miniorange-incorporated')
+    files = open('search_details.txt').read()
+    files = files.split('\n')
+
+    details = []
+    for lines in files:
+        if ':' in lines:
+            user = lines.split(':')
+            details.append(user[1].strip())
+
+
+    credss = open('details.txt').read()
+    credss = credss.split('\n')
+
+    creds = []
+    for lines in credss:
+        if ':' in lines:
+            user = lines.split(':')
+            creds.append(user[1].strip())
+
+    start = ScrapeCompanyData(details[0],details[1],details[2],creds)
     data1 = start.get_crunchbase_data()
     data2 = start.get_linkedin_data()
     data3 = start.get_tweeter_data()

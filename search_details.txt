@@ -1,0 +1,5 @@
+twitter_username: ScoutMine
+crunchbase_username: scoutmine
+linkedin_username: crowdfunding-investors
+
+# These are just example you have to change that based upon your search.

@@ -1,0 +1,6 @@
+consumer_key: AdW0DwnyMprbY8jPCQBT6wOi0
+consumer_secret: z9Uq6O8uW60CN70phXrsWHDGgU4zx5Ex1tfKtSfiaGPItXcbp4
+access_token: 1394308063595614217-tjHbbYsIvoKzdWgljbjnziaMwjxq1l
+access_token_secret: 4FNiCSu2dgRMpW8P0iR94vGS2EhsxhYfNNyW8V4LbgpRU
+LinkedIn_username: tausifiqbal10@gmail.com
+LinkedIn_Password: mechanical.18
